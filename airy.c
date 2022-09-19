@@ -25,6 +25,9 @@ const char *overview =
 // * Non-dispersive model, same refractive index applied to all wavelengths.
 //   Since a volume around the focal plane is swept impact of a non-dispersive
 //   model is spatial scaling of computed irradiance in xy plane.
+// * Absorption by anterior ocular structures for near IR radiation is ignored,
+//   consistent with the arbitrary units computed in the irradiance pattern
+//   around the focal plane.
 // * Scattering at the retina is not modeled, no veiling corona.
 // * Sweep by defocus and sweep by focal plane shift are imperfect analogs of
 //   each other. They yield comparable but not identical results.
